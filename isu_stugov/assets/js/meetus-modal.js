@@ -30,9 +30,10 @@ $(document).ready(function() {
  //-       p 3. Improve the Student Experience.
 
   // Set modal content
-  $('#faceOne').click(function() {
-    $('.modal-member-name').html('Dan Breitbarth');
-    $('.modal-position').html('President');
+  $('#snook').click(function() {
+    $('.modal-member-name').html('Michael Snook');
+    $('.modal-position').html('Vice Speaker of the Senate');
+    $('.email').html('snook@iastate.edu');
     $('.major').html('Major: Computer Engineering');
     $('.hometown').html('Hometown: Cedar Rapids, Iowa');
     $('.sgYears').html('Years in Student Government: 2');
@@ -41,10 +42,28 @@ $(document).ready(function() {
     $('.goalTwo').html('2. Ensure the efficient operations of the Student Government Senate.');
     $('.goalThree').html('3. Improve the Student Experience.');
     $('.modal-img').css({
-      "background": "url('../../assets/img/members/Breitbarth_Daniel_Pres0.jpg')",
+      "background": "url('../assets/img/members/Breitbarth_Daniel_Pres0.jpg')",
       "background-size": "cover"
     });
   });
+
+  $('#dgavin').click(function() {
+    $('.modal-member-name').html('Dan Gavin');
+    $('.modal-position').html('Director of New Student Outreach');
+    $('.email').html('dgavin@iastate.edu');
+    $('.major').html('Major: History, Secondary Education');
+    $('.hometown').html('Hometown: Albany, NY');
+    $('.sgYears').html('Years in Student Government: 1');
+    $('.bio').html('Expected graduation is Fall 2017. My freshmen year, I lived in Wilson Hall (Tower Power!) and served as my floor’s Treasurer. My second semester, I began my position as a Cyclone Aide in the Office of New Student Programs. I found that I had a passion for new students and their transition experience to Iowa State. In the fall of my sophomore year, I received the position of Cyclone Aide Adviser. I am part of a team of Advisers who are helping to prepare the new class of Cyclone Aides for Orientation and Destination Iowa State. I’m excited to get the new school year started in the fall with Destination Iowa State and hear from new students what they want Student Government to do for them to make their experience better');
+    $('.goalOne').html('1. Kickoff the year with Destination Iowa State and get great ideas for events or changes that can make the new student experience better');
+    $('.goalTwo').html('2. Work closely with IRHA to form an open community with new students with outreach throughout the school year');
+    $('.goalThree').html('3. Keep constant outreach throughout the school year and an open inbox so that students can voice concerns and excitement about their experience and any ideas that they have');
+    $('.modal-img').css({
+      "background": "white",
+      "background-size": "cover"
+    });
+  });
+
 
   // Open Modal
   $('.faces-div').click(function() {

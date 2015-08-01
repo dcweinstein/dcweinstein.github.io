@@ -976,14 +976,7 @@ facePosition {
     position: relative;
     height: 15px;
     font-size: 17px;
-    text-align: center; }
-  .faces-div h3 {
-    color: white;
-    position: relative;
-    height: 15px;
-    font-size: 14px;
     text-align: center;
-    padding-top: 8px;
     padding-bottom: 10px; }
   .faces-div:hover {
     position: relative;
@@ -998,8 +991,20 @@ facePosition {
   position: relative;
   top: 175px; }
 
-#faceOne {
+#dpb {
   background: url("../../assets/img/members/Breitbarth_Daniel_Pres0.jpg");
+  background-size: cover; }
+
+#mjsweere {
+  background: url("../../assets/img/members/Sweere_Megan_VP.jpg");
+  background-size: cover; }
+
+#bcraw {
+  background: url("../../assets/img/members/Crawford_Ben_SpeakerofSenate.jpg");
+  background-size: cover; }
+
+#snook {
+  background: url("../../assets/img/members/Snook_Michael_ViceSpeaker.jpg");
   background-size: cover; }
 
 .init-splash {
@@ -1121,6 +1126,8 @@ facePosition {
   .meetus-modal-frame .modal-member-name {
     color: black; }
   .meetus-modal-frame .modal-position {
+    text-align: center; }
+  .meetus-modal-frame .email {
     text-align: center; }
   .meetus-modal-frame .major {
     margin: 10px 0 0 15px; }

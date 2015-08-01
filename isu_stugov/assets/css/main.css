@@ -1,0 +1,1148 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"], input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+@font-face {
+  font-family: "oswald-stencil";
+  src: url(../../assets/fonts/Oswald-Stencil.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "tarjan";
+  src: url(../../assets/fonts/Trajan-Pro-Regular.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "oswald";
+  src: url(../../assets/fonts/Oswald-Regular.ttf) format("truetype"); }
+
+a {
+  text-decoration: none;
+  text-transform: none;
+  color: inherit; }
+
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%; }
+
+html, body {
+  height: 100%;
+  background-color: #eeeeee;
+  max-width: 100%; }
+
+div {
+  display: block; }
+
+body {
+  font-family: "oswald", Helvetica, Arial, sans-serif;
+  color: #333; }
+
+ul {
+  list-style-type: none; }
+
+.pleat {
+  width: 100%;
+  height: 300px;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12); }
+  .pleat h1 {
+    width: 100%; }
+
+.triangle {
+  position: relative;
+  margin: 0 auto 0 auto;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent; }
+
+.goldtriangle {
+  border-top: 25px solid #F7C67B; }
+
+.cardinaltriangle {
+  border-top: 25px solid #D6384D; }
+
+#logo {
+  position: absolute;
+  top: 20px;
+  right: 10px; }
+
+#isu-logo {
+  font-family: "tarjan";
+  font-size: 17pt;
+  color: white;
+  text-align: center;
+  padding: 0;
+  line-height: 50%; }
+
+#stu-gov-logo {
+  font-family: "oswald-stencil";
+  font-size: 22pt;
+  color: white;
+  margin: 0;
+  padding: 0; }
+
+@media screen and (max-width: 450px) {
+  #stu-gov-logo {
+    font-size: 17pt; }
+  #isu-logo {
+    font-size: 12pt; } }
+
+.splash-img {
+  position: relative;
+  height: 800px;
+  width: 100%;
+  padding: 0;
+  background-color: #D6384D; }
+
+h2 {
+  padding: 0; }
+
+h3 {
+  padding: 0; }
+
+.social-icons {
+  position: absolute;
+  top: 740px; }
+
+.icon {
+  padding: 10px;
+  height: 10%;
+  width: 10%; }
+
+@media screen and (max-width: 1400px) {
+  .splash-img {
+    height: 700px; }
+  .social-icons {
+    top: 640px; } }
+
+@media screen and (max-width: 1000px) {
+  .splash-img {
+    height: 600px; }
+  .social-icons {
+    top: 540px; } }
+
+@media screen and (max-width: 850px) {
+  .splash-img {
+    height: 500px; }
+  .social-icons {
+    top: 440px; } }
+
+@media screen and (max-width: 700px) {
+  .splash-img {
+    height: 400px; }
+  .social-icons {
+    top: 340px; } }
+
+@media screen and (max-width: 550px) {
+  .splash-img {
+    height: 300px; }
+  .social-icons {
+    top: 240px; } }
+
+#nav-container {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+  background-color: #D6384D; }
+
+#nav-center-container {
+  margin-left: auto;
+  padding: 0;
+  margin-right: auto;
+  width: 1019px;
+  margin-top: 0; }
+
+.nav-link {
+  padding: 0;
+  position: relative;
+  color: #F7C67B;
+  display: table-cell;
+  padding: 12px 30px 0px 30px; }
+
+.main-nav {
+  padding: 0;
+  position: relative;
+  height: 50px;
+  background-color: #D6384D; }
+
+a {
+  padding: 0;
+  margin: 0; }
+
+li {
+  padding: 0;
+  margin: 0; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+
+#mini-nav {
+  text-align: right;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  background-color: #D6384D;
+  color: #F7C67B;
+  display: none; }
+
+#hamburger {
+  display: none;
+  padding: 3px 0 10px 0; }
+  #hamburger .line {
+    width: 40px;
+    height: 3px;
+    margin: 7px 15px 0px auto;
+    position: relative;
+    background-color: #F7C67B; }
+
+@media screen and (max-width: 1019px) {
+  #nav-center-container {
+    display: none; }
+  #hamburger {
+    display: block; } }
+
+#announcements {
+  background-color: #F7C67B; }
+
+h1 {
+  position: relative;
+  margin: 0 auto 0 auto;
+  color: white;
+  text-align: center; }
+
+#announcement-section {
+  width: 1090px;
+  margin: 0 auto 0 auto; }
+
+.announcement-box {
+  width: 242.5px;
+  height: 220px;
+  background-color: white;
+  margin: 10px 15px 10px 15px;
+  float: left;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16); }
+  .announcement-box h3 {
+    text-align: center;
+    margin: 5px 5px 10px 5px; }
+  .announcement-box p {
+    margin: 5px 5px; }
+
+@media screen and (max-width: 1090px) {
+  #announcement-section {
+    width: 817.5px; }
+  #announcements {
+    height: 550px; } }
+
+@media screen and (max-width: 817.5px) {
+  #announcement-section {
+    width: 545px; }
+  #announcements {
+    height: 550px; } }
+
+@media screen and (max-width: 545px) {
+  #announcement-section {
+    width: 272.5px; }
+  #announcements {
+    height: 1020px; } }
+
+#meetus {
+  background-color: #D6384D;
+  padding-bottom: 10px; }
+
+#meet-us-images {
+  width: 100%;
+  text-align: center; }
+
+.meet-us-img-div {
+  display: inline-block;
+  position: relative; }
+
+name {
+  position: absolute;
+  bottom: 120px;
+  left: 30px;
+  font-size: 30px;
+  opacity: 0;
+  font: black;
+  cursor: pointer; }
+
+positionTitle {
+  position: absolute;
+  bottom: 100px;
+  left: 30px;
+  font-size: 20px;
+  opacity: 0;
+  font: black;
+  cursor: pointer; }
+
+.meet-us-img {
+  width: 220px;
+  height: 220px;
+  margin: 5px 15px 15px 15px;
+  border-radius: 50%; }
+
+#layer1 {
+  background: url("../../assets/img/members/Breitbarth_Daniel_Pres0.jpg");
+  background-size: cover; }
+
+#layer2 {
+  background: url("../../assets/img/members/Sweere_Megan_VP.jpg");
+  background-size: cover; }
+
+#layer3 {
+  background: url("../../assets/img/members/Crawford_Ben_SpeakerofSenate.jpg");
+  background-size: cover; }
+
+#layer4 {
+  background: url("../../assets/img/members/Snook_Michael_ViceSpeaker.jpg");
+  background-size: cover; }
+
+.meet-us-img-layer {
+  width: 220px;
+  height: 220px;
+  margin: 5px 15px 15px 15px;
+  border-radius: 50%;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16); }
+
+.layer {
+  background-color: white;
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  opacity: 0;
+  cursor: pointer; }
+
+.more-info {
+  display: none;
+  color: white;
+  text-align: left;
+  padding: 10px 0 10px 15px; }
+  .more-info h2 {
+    font-size: 25px;
+    margin-bottom: 02px; }
+  .more-info h3 {
+    margin-bottom: 8px; }
+  .more-info .header {
+    margin-top: 8px;
+    margin-bottom: 3px; }
+
+#homepage-faces {
+  padding-top: 0;
+  margin: 0 auto 0 auto;
+  width: 1000px; }
+
+@media screen and (max-width: 1000px) {
+  #meetus {
+    height: 600px; }
+  #homepage-faces {
+    width: 750px; } }
+
+@media screen and (max-width: 750px) {
+  #homepage-faces {
+    width: 500px; } }
+
+@media screen and (max-width: 500px) {
+  #meetus {
+    height: 1020px; }
+  #homepage-faces {
+    width: 250px; } }
+
+#initiatives {
+  background-color: #F7C67B;
+  padding-bottom: 15px; }
+
+#homepage-init {
+  width: 1020px;
+  margin: 0 auto 0 auto; }
+  #homepage-init .init-div {
+    height: 220px; }
+
+@media screen and (max-width: 1020px) {
+  #homepage-init {
+    width: 680px; }
+  #initiatives {
+    height: 570px; } }
+
+@media screen and (max-width: 680px) {
+  #initiatives {
+    height: 810px; }
+  #homepage-init {
+    width: 340px; } }
+
+#getinvolved {
+  background-color: #D6384D;
+  padding-bottom: 40px; }
+
+#get-involved-options {
+  width: 100%;
+  text-align: center; }
+
+.get-involved-div {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 5px 25px 10px 25px;
+  line-height: 125px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16); }
+
+@media screen and (max-width: 914px) {
+  #getinvolved {
+    height: 600px; } }
+
+@media screen and (max-width: 614px) {
+  #getinvolved {
+    height: 900px; } }
+
+#footer {
+  background-color: #666666;
+  height: 100px; }
+
+.meet-splash {
+  width: 100%;
+  position: relative; }
+
+.meetus-page-title {
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+  color: white;
+  font-family: "oswald-stencil";
+  font-size: 22pt; }
+
+@media screen and (max-width: 540px) {
+  .meetus-page-title {
+    font-size: 17pt; } }
+
+@media screen and (max-width: 420px) {
+  .meetus-page-title {
+    font-size: 15px; } }
+
+.main-section {
+  width: 100%;
+  background-color: #F7C67B; }
+
+.content-col {
+  width: 1015px;
+  position: relative;
+  margin: 0 auto; }
+
+.filter-buttons {
+  padding-top: 40px; }
+
+.fButton {
+  width: 150px;
+  height: 50px;
+  background-color: #D6384D;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+  float: left;
+  margin: 0 51px 0 52px;
+  cursor: pointer; }
+  .fButton:hover {
+    position: relative;
+    top: -3px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19); }
+  .fButton:active {
+    box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+    top: +3px; }
+  .fButton h3 {
+    text-align: center;
+    vertical-align: middle;
+    color: #F7C67B;
+    font-size: 17pt;
+    padding-top: 9px; }
+
+.mini-filter-button {
+  text-align: center;
+  width: 150px;
+  display: none;
+  margin: 0 auto 0 auto;
+  background-color: #D6384D;
+  color: #F7C67B; }
+
+.mini-filter-main {
+  display: none;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  margin: 0 auto 0 auto;
+  background-color: #D6384D;
+  color: #F7C67B;
+  line-height: 50px;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+  cursor: pointer; }
+  .mini-filter-main:hover {
+    position: relative;
+    top: -3px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19); }
+  .mini-filter-main:active {
+    box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+    top: +3px; }
+
+@media screen and (max-width: 1015px) {
+  .fButton {
+    margin: 0 20px 0 20px; }
+  .content-col {
+    width: 760px; }
+  .mini-filter-main {
+    display: none; }
+  .mini-filter-button {
+    display: none; } }
+
+@media screen and (max-width: 760px) {
+  .fButton {
+    display: none; }
+  .mini-filter-main {
+    display: block; }
+  .content-col {
+    width: 500px; } }
+
+@media screen and (max-width: 500px) {
+  .content-col {
+    width: 250px; } }
+
+.faces {
+  padding-top: 60px;
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+
+.face {
+  width: 220px;
+  height: 220px;
+  margin: 5px 15px 15px 15px;
+  border-radius: 50%;
+  background-color: white;
+  overflow: hidden; }
+
+.face-layer {
+  width: 220px;
+  height: 220px;
+  margin: 0px 0px 0px 0px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0;
+  cursor: pointer; }
+
+faceName {
+  position: relative;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  background-color: black;
+  top: -40px;
+  text-align: center; }
+
+facePosition {
+  position: relative;
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+  top: -40px;
+  text-align: center; }
+
+.face-text {
+  background-color: black; }
+
+#face1 {
+  background: url("../../assets/img/members/Breitbarth_Daniel_Pres0.jpg");
+  background-size: cover; }
+
+.modal-content {
+  padding: 0 10px; }
+  .modal-content h1 {
+    margin-left: 85px;
+    color: black; }
+  .modal-content h3 {
+    margin-left: 250px;
+    padding-bottom: 15px; }
+  .modal-content .info {
+    margin-left: 250px; }
+  .modal-content .more {
+    margin-top: 55px; }
+
+#back1 {
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  margin: 0px 0px 0px 0px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0;
+  background-color: white; }
+  #back1 h2 {
+    text-align: right;
+    margin: 2px 13px 0 0;
+    cursor: pointer; }
+
+.opaque-layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  display: none; }
+
+.faces-section {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding-bottom: 80px;
+  padding-top: 40px; }
+
+.faces-div {
+  width: 220px;
+  height: 220px;
+  background-color: white;
+  margin: 0 15px 20px 15px;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  border-radius: 50%;
+  overflow: hidden; }
+  .faces-div h1 {
+    color: white;
+    position: relative;
+    height: 15px;
+    font-size: 17px;
+    text-align: center; }
+  .faces-div h3 {
+    color: white;
+    position: relative;
+    height: 15px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 10px; }
+  .faces-div:hover {
+    position: relative;
+    top: -3px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19); }
+  .faces-div:active {
+    box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+    top: +3px; }
+
+.face-div-text {
+  background-color: black;
+  position: relative;
+  top: 175px; }
+
+#faceOne {
+  background: url("../../assets/img/members/Breitbarth_Daniel_Pres0.jpg");
+  background-size: cover; }
+
+.init-splash {
+  width: 100%;
+  position: relative; }
+
+.init-page-title {
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+  color: white;
+  font-family: "oswald-stencil";
+  font-size: 22pt; }
+
+.init-main {
+  width: 100%;
+  background-color: #F7C67B; }
+
+.init-container {
+  position: relative;
+  width: 1020px;
+  margin: 0 auto 0px auto;
+  top: 40px; }
+
+.init-section {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding-bottom: 80px; }
+
+.init-div {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  margin: 0 20px 25px 20px;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  line-height: 300px; }
+  .init-div h1 {
+    color: black;
+    position: relative;
+    top: -10px; }
+  .init-div:hover {
+    position: relative;
+    top: -3px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19); }
+  .init-div:active {
+    box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+    top: +3px; }
+
+@media screen and (max-width: 1020px) {
+  .init-container {
+    width: 680px; } }
+
+@media screen and (max-width: 680px) {
+  .init-container {
+    width: 340px; } }
+
+.modal-frame {
+  display: none;
+  z-index: 99;
+  background-color: white;
+  position: fixed; }
+  .modal-frame h2 {
+    float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+    cursor: pointer; }
+  .modal-frame .project {
+    color: black; }
+  .modal-frame h3 {
+    padding-top: 20px;
+    padding-left: 10px;
+    float: left; }
+  .modal-frame .goal-title {
+    padding-top: 15px; }
+  .modal-frame p {
+    padding: 5px 15px 0 15px;
+    float: left; }
+  .modal-frame a {
+    float: right;
+    padding: 20px 10px 0 0; }
+
+.opaque-back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  display: none; }
+
+.meetus-modal-frame {
+  display: none;
+  z-index: 99;
+  background-color: white;
+  position: fixed;
+  overflow: scroll; }
+  .meetus-modal-frame #meetus-close-Modal {
+    float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+    cursor: pointer; }
+  .meetus-modal-frame .modal-img {
+    background: url("../../assets/img/members/Sweere_Megan_VP.jpg");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin-left: 15px;
+    float: left; }
+  .meetus-modal-frame .modal-member-name {
+    color: black; }
+  .meetus-modal-frame .modal-position {
+    text-align: center; }
+  .meetus-modal-frame .major {
+    margin: 10px 0 0 15px; }
+  .meetus-modal-frame .hometown {
+    margin-left: 15px; }
+  .meetus-modal-frame .sgYears {
+    margin-left: 15px; }
+  .meetus-modal-frame .bio-header {
+    margin: 15px 15px 0 15px; }
+  .meetus-modal-frame .bio {
+    margin: 5px 15px 0 15px; }
+  .meetus-modal-frame .goals {
+    margin: 15px 0 0 15px; }
+  .meetus-modal-frame .goal-section {
+    margin: 5px 15px 10px 15px; }
+
+.meetus-opaque-back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  display: none; }

@@ -1,0 +1,64 @@
+#nav-container
+  position: relative
+  padding: 0
+  width: 100%
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12)
+  // height: 50px
+  background-color: $cardinal-color
+
+#nav-center-container
+  margin-left: auto
+  padding: 0
+  margin-right: auto
+  width: 1019px
+  margin-top: 0
+
+.nav-link
+  padding: 0
+  position: relative
+  color: $gold-color
+  display: table-cell
+  padding: 12px 30px 0px 30px
+
+.main-nav
+  padding: 0
+  position: relative
+  height: 50px
+  background-color: $cardinal-color
+
+a
+  padding: 0
+  margin: 0
+
+li
+  padding: 0
+  margin: 0
+
+ul
+  padding: 0
+  margin: 0
+
+#mini-nav
+  text-align: right
+  padding-right: 15px
+  padding-bottom: 10px
+  background-color: $cardinal-color
+  color: $gold-color
+  display: none
+
+#hamburger
+  display: none
+  padding: 3px 0 10px 0
+  .line
+    width: 40px
+    height: 3px
+    margin: 7px 15px 0px auto
+    position: relative
+    background-color: $gold-color
+
+
+@media screen and (max-width: 1019px)
+  #nav-center-container
+    display: none
+  #hamburger
+    display: block

@@ -1,0 +1,224 @@
+.main-section
+  width: 100%
+  background-color: $gold-color
+
+.content-col
+  width: 1015px
+  position: relative
+  margin: 0 auto
+
+.filter-buttons
+  padding-top: 40px
+
+.fButton
+  width: 150px
+  height: 50px
+  background-color: $cardinal-color
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12)
+  float: left
+  margin: 0 51px 0 52px
+  cursor: pointer
+
+  &:hover
+    position: relative
+    top: -3px
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19)
+  &:active
+    box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12)
+    top: +3px
+
+  h3
+    text-align: center
+    vertical-align: middle
+    color: $gold-color
+    font-size: 17pt
+    padding-top: 9px
+
+.mini-filter-button
+  text-align: center
+  width: 150px
+  display: none
+  margin: 0 auto 0 auto
+  background-color: $cardinal-color
+  color: $gold-color
+
+.mini-filter-main
+  display: none
+  text-align: center
+  width: 150px
+  height: 50px
+  margin: 0 auto 0 auto
+  background-color: $cardinal-color
+  color: $gold-color
+  line-height: 50px
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12)
+  cursor: pointer
+  &:hover
+    position: relative
+    top: -3px
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19)
+  &:active
+    box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12)
+    top: +3px
+
+
+@media screen and (max-width: 1015px)
+  .fButton
+    margin: 0 20px 0 20px
+  .content-col
+    width: 760px
+  .mini-filter-main
+    display: none
+  .mini-filter-button
+    display: none
+
+@media screen and (max-width: 760px)
+  .fButton
+    display: none
+  .mini-filter-main
+    display: block
+  .content-col
+    width: 500px
+
+@media screen and (max-width: 500px)
+  .content-col
+    width: 250px
+
+.faces
+  padding-top: 60px
+  width: 100%
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+.face
+  width: 220px
+  height: 220px
+  margin: 5px 15px 15px 15px
+  border-radius: 50%
+  background-color: white
+  overflow: hidden
+
+.face-layer
+  width: 220px
+  height: 220px
+  margin: 0px 0px 0px 0px
+  border-radius: 50%
+  background-color: white
+  opacity: 0
+  cursor: pointer
+
+faceName
+  position: relative
+  font-size: 15px
+  color: white
+  cursor: pointer
+  background-color: black
+  top: -40px
+  text-align: center
+
+facePosition
+  position: relative
+  font-size: 12px
+  color: white
+  cursor: pointer
+  top: -40px
+  text-align: center
+
+.face-text
+  background-color: black
+#face1
+  background:url("../../assets/img/members/Breitbarth_Daniel_Pres0.jpg")
+  background-size: cover
+
+.modal-content
+  padding: 0 10px
+  h1
+    margin-left: 85px
+    color: black
+  h3
+    margin-left: 250px
+    padding-bottom: 15px
+  .info
+    margin-left: 250px
+  .more
+    margin-top: 55px
+
+#back1
+  display: none
+  overflow: hidden
+  position: absolute
+  width: 220px
+  height: 220px
+  margin: 0px 0px 0px 0px
+  border-radius: 50%
+  background-color: white
+  opacity: 0
+  background-color: white
+  h2
+    text-align: right
+    margin: 2px 13px 0 0
+    cursor: pointer
+
+
+.opaque-layer
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background-color: black
+  opacity: 0
+  display: none
+
+
+
+
+.faces-section
+  width: 100%
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  padding-bottom: 80px
+  padding-top: 80px
+
+.faces-div
+  width: 220px
+  height: 220px
+  background-color: white
+  margin: 0 15px 20px 15px
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12)
+  cursor: pointer
+  border-radius: 50%
+  overflow: hidden
+  h1
+    color:white
+    position: relative
+    height: 15px
+    font-size: 17px
+    text-align: center
+
+  h3
+    color:white
+    position: relative
+    height: 15px
+    font-size: 14px
+    text-align: center
+    padding-top: 8px
+    padding-bottom: 10px
+
+  &:hover
+    position: relative
+    top: -3px
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19)
+  &:active
+    box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12)
+    top: +3px
+
+.face-div-text
+  background-color: black
+  position: relative
+  top: 175px
+
+#faceOne
+  background:url("../../assets/img/members/Breitbarth_Daniel_Pres0.jpg")
+  background-size: cover

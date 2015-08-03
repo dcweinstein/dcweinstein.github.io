@@ -970,7 +970,9 @@ facePosition {
   box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
   cursor: pointer;
   border-radius: 50%;
-  overflow: hidden; }
+  overflow: hidden;
+  background: url("../../assets/img/members/missing.jpg");
+  background-size: cover; }
   .faces-div h1 {
     color: white;
     position: relative;
@@ -1117,7 +1119,7 @@ facePosition {
     margin-top: 5px;
     cursor: pointer; }
   .meetus-modal-frame .modal-img {
-    background: url("../../assets/img/members/Sweere_Megan_VP.jpg");
+    background: url("../../assets/img/members/missing.jpg");
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -1152,4 +1154,379 @@ facePosition {
   height: 100%;
   background-color: black;
   opacity: 0;
+  display: none;
+  z-index: 99; }
+
+.funding-splash {
+  width: 100%;
+  position: relative; }
+
+.funding-page-title {
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+  color: white;
+  font-family: "oswald-stencil";
+  font-size: 22pt; }
+
+.funding-request-main {
+  width: 100%;
+  height: 100%;
+  background-color: #D6384D;
   display: none; }
+
+.request-menu {
+  float: left;
+  height: 100%;
+  width: 15%; }
+
+.request-content-container {
+  float: left;
+  width: 80%;
+  height: 90%;
+  background-color: white;
+  margin-top: 80px;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+  overflow: scroll; }
+
+.request-content {
+  padding: 15px 0 0 0; }
+  .request-content h1 {
+    text-align: left;
+    margin-left: 20px;
+    color: black; }
+
+.go-to-about-req {
+  width: 70%;
+  height: 50px;
+  position: relative;
+  top: 48%;
+  margin-left: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #F7C67B;
+  background-color: #F7C67B;
+  padding: 0px 10px 0 10px;
+  cursor: pointer; }
+  .go-to-about-req h3 {
+    margin-top: 13px;
+    color: #D6384D; }
+
+.go-to-more-options-req {
+  width: 70%;
+  height: 50px;
+  position: relative;
+  top: 50%;
+  margin-left: 15px;
+  font-size: 13px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #F7C67B;
+  background-color: #F7C67B;
+  padding: 0px 10px 0 10px;
+  cursor: pointer; }
+  .go-to-more-options-req h3 {
+    margin-top: 15px;
+    color: #D6384D; }
+
+.request-content-info {
+  margin: 10px 15px 10px 15px; }
+  .request-content-info h4 {
+    margin-left: 20px;
+    margin-top: 5px; }
+  .request-content-info h3 {
+    margin-top: 5px; }
+  .request-content-info .faces-div {
+    margin: 10px auto 10px auto; }
+    .request-content-info .faces-div .face-div-text h1 {
+      color: white;
+      text-align: center; }
+
+#hsbbas {
+  background: url("../../assets/img/members/missing.jpg");
+  background-size: cover; }
+
+.funding-options-main {
+  width: 100%;
+  height: 100%;
+  background-color: #F7C67B;
+  display: none; }
+
+.more-options-menu {
+  float: left;
+  height: 100%;
+  width: 15%; }
+
+.more-options-content-container {
+  float: left;
+  width: 80%;
+  height: 90%;
+  margin-top: 80px;
+  overflow: scroll; }
+
+.more-options-content {
+  padding: 15px 0 0 0; }
+  .more-options-content h1 {
+    text-align: left;
+    margin-left: 20px;
+    color: black; }
+
+.go-to-about-opt {
+  width: 70%;
+  height: 50px;
+  position: relative;
+  top: 48%;
+  margin-left: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D6384D;
+  background-color: #D6384D;
+  padding: 0px 10px 0 10px;
+  cursor: pointer; }
+  .go-to-about-opt h3 {
+    margin-top: 13px;
+    color: #F7C67B; }
+
+.go-to-request-opt {
+  width: 70%;
+  height: 50px;
+  position: relative;
+  top: 50%;
+  margin-left: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D6384D;
+  background-color: #D6384D;
+  padding: 0px 10px 0 10px;
+  cursor: pointer; }
+  .go-to-request-opt h3 {
+    margin-top: 13px;
+    color: #F7C67B; }
+
+.more-options-links {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding-bottom: 80px;
+  margin-top: 15px; }
+
+.more-options-link {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  margin: 0 20px 25px 20px;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+  cursor: pointer; }
+  .more-options-link h1 {
+    color: black;
+    position: relative;
+    font-size: 25px;
+    text-align: center; }
+  .more-options-link p {
+    margin: 5px 10px 10px 10px; }
+  .more-options-link:hover {
+    position: relative;
+    top: -3px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19); }
+  .more-options-link:active {
+    box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+    top: +3px; }
+
+.funding-about-main {
+  width: 100%;
+  height: 100%;
+  background-color: #F7C67B; }
+
+.about-menu {
+  float: left;
+  height: 100%;
+  width: 15%; }
+
+.about-content-container {
+  float: left;
+  width: 80%;
+  height: 90%;
+  background-color: white;
+  margin-top: 80px;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+  overflow: scroll; }
+
+.about-content {
+  padding: 15px 0 0 0; }
+  .about-content h1 {
+    text-align: left;
+    margin-left: 20px;
+    color: black; }
+
+.go-to-request-abt {
+  width: 70%;
+  height: 50px;
+  position: relative;
+  top: 48%;
+  margin-left: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D6384D;
+  background-color: #D6384D;
+  padding: 0px 10px 0 10px;
+  cursor: pointer; }
+  .go-to-request-abt h3 {
+    margin-top: 13px;
+    color: #F7C67B; }
+
+.go-to-more-options-abt {
+  width: 70%;
+  height: 50px;
+  position: relative;
+  top: 50%;
+  margin-left: 15px;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 13px;
+  border-color: #D6384D;
+  background-color: #D6384D;
+  padding: 0px 10px 0 10px;
+  cursor: pointer; }
+  .go-to-more-options-abt h3 {
+    margin-top: 15px;
+    color: #F7C67B; }
+
+.about-left {
+  float: left;
+  width: 48%;
+  margin: 10px 0 10px 15px; }
+  .about-left p {
+    margin-bottom: 10px; }
+
+.about-right {
+  float: right;
+  width: 48%;
+  margin: 10px 10px 10px; }
+  .about-right p {
+    margin-bottom: 10px; }
+
+.resources-splash {
+  width: 100%;
+  position: relative; }
+
+.resources-page-title {
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+  color: white;
+  font-family: "oswald-stencil";
+  font-size: 22pt; }
+
+.resources-main {
+  width: 100%;
+  background-color: #F7C67B; }
+
+.resources-container {
+  position: relative;
+  width: 1020px;
+  margin: 0 auto 0px auto;
+  top: 40px; }
+
+.resources-section {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding-bottom: 80px; }
+
+.resources-div {
+  width: 300px;
+  height: 250px;
+  overflow: scroll;
+  background-color: white;
+  margin: 0 20px 25px 20px;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  padding-top: 40px; }
+  .resources-div h1 {
+    color: black;
+    position: relative;
+    top: -10px; }
+  .resources-div h4 {
+    margin: 0 10px 10px 10px; }
+  .resources-div:hover {
+    position: relative;
+    top: -3px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19); }
+  .resources-div:active {
+    box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+    top: +3px; }
+
+@media screen and (max-width: 1020px) {
+  .resources-container {
+    width: 680px; } }
+
+@media screen and (max-width: 680px) {
+  .resources-container {
+    width: 340px; } }
+
+.elections-splash {
+  width: 100%;
+  position: relative; }
+
+.elections-page-title {
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+  color: white;
+  font-family: "oswald-stencil";
+  font-size: 22pt; }
+
+.elections-menu {
+  float: left;
+  background-color: #F7C67B;
+  height: 100%; }
+
+.elections-menu-items {
+  position: relative;
+  top: 50%;
+  cursor: pointer; }
+
+.elections-content {
+  height: 100%; }
+
+.about-elections {
+  height: 100%;
+  background-color: #D6384D; }
+
+.election-commission {
+  height: 100%;
+  background-color: #F7C67B;
+  display: none; }
+
+.how-to-run {
+  height: 100%;
+  background-color: #D6384D;
+  display: none; }
+
+.elections-content-div {
+  background-color: white;
+  margin: 0 10px 0 200px;
+  padding: 15px 0 0 10px;
+  width: 70; }
+  .elections-content-div h1 {
+    color: black;
+    margin-left: 10px; }
+  .elections-content-div p {
+    margin: 5px 10px 0 10px;
+    padding-bottom: 20px; }
+  .elections-content-div a {
+    text-decoration: underline; }

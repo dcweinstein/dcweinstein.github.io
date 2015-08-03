@@ -59,7 +59,24 @@ $(document).ready(function() {
     $('.goalTwo').html('2. Work closely with IRHA to form an open community with new students with outreach throughout the school year');
     $('.goalThree').html('3. Keep constant outreach throughout the school year and an open inbox so that students can voice concerns and excitement about their experience and any ideas that they have');
     $('.modal-img').css({
-      "background": "white",
+      "background": "url('../assets/img/members/missing.jpg')",
+      "background-size": "cover"
+    });
+  });
+
+  $('#hsbbas').click(function() {
+    $('.modal-member-name').html('Hamad Abbas');
+    $('.modal-position').html('Finance Director');
+    $('.email').html('hsbbas@iastate.edu');
+    $('.major').html('');
+    $('.hometown').html('');
+    $('.sgYears').html('');
+    $('.bio').html('');
+    $('.goalOne').html('');
+    $('.goalTwo').html('');
+    $('.goalThree').html('');
+    $('.modal-img').css({
+      "background": "../img/members/missing.jpg",
       "background-size": "cover"
     });
   });

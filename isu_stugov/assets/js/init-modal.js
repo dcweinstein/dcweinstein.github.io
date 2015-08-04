@@ -12,8 +12,31 @@ $(document).ready(function() {
     $('.project').html('Bike Share Program');
     $('.project-manager').html('Nick Terhall');
     $('.goal').html('Install card scanners and bikes on campus so that students can checkout bikes from campus and return at any other campus bike rack');
+    $('.more-info-selector').html("More Info");
     $('.more-info-selector').attr('href', "Bike-Share-Document.pdf");
   });
+
+  $('#initTwo').click(function() {
+    $('.project').html('Recycling Expansino to Campus Buildings');
+    $('.project-manager').html('Aly Straube');
+    $('.goal').html('Expand ISU recycling program to other campus buildings starting with library');
+    $('.more-info-selector').html("");
+  });
+
+  $('#initThree').click(function() {
+    $('.project').html('Supplemental Instructino Reform');
+    $('.project-manager').html('Hillary Kletscher');
+    $('.goal').html('');
+    $('.more-info-selector').html("");
+  });
+
+  $('#initFour').click(function() {
+    $('.project').html('Connection Student Government and Freshman Council');
+    $('.project-manager').html('Blake Singbush');
+    $('.goal').html('Connecting GSB and FC by coming up with issues current Freshmen face by working on projects that help the betterment of Freshmen.');
+    $('.more-info-selector').html("");
+  });
+
 
   // Open Modal
   $('.init-div').click(function() {

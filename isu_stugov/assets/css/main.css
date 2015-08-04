@@ -647,6 +647,18 @@ positionTitle {
   background: url("../../assets/img/members/Snook_Michael_ViceSpeaker.jpg");
   background-size: cover; }
 
+#ztbarnes {
+  background: url("../../assets/img/members/Barnes_Zaackary_DirectorofGovernmentRelations.png");
+  background-size: cover; }
+
+#abbehnke {
+  background: url("../../assets/img/members/Behnke_Tony_CodirectorStudentAffairs.png");
+  background-size: cover; }
+
+#bergfeld {
+  background: url("../../assets/img/members/Bergfeld_Nick_EngineerSenator.png");
+  background-size: cover; }
+
 .meet-us-img-layer {
   width: 220px;
   height: 220px;
@@ -709,6 +721,9 @@ positionTitle {
   margin: 0 auto 0 auto; }
   #homepage-init .init-div {
     height: 220px; }
+
+.home-page-init h1 {
+  top: -50px; }
 
 @media screen and (max-width: 1020px) {
   #homepage-init {
@@ -1050,12 +1065,11 @@ facePosition {
   background-color: white;
   margin: 0 20px 25px 20px;
   box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
-  cursor: pointer;
-  line-height: 300px; }
+  cursor: pointer; }
   .init-div h1 {
     color: black;
     position: relative;
-    top: -10px; }
+    margin-top: 100px; }
   .init-div:hover {
     position: relative;
     top: -3px;
@@ -1527,6 +1541,7 @@ facePosition {
     margin-left: 10px; }
   .elections-content-div p {
     margin: 5px 10px 0 10px;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    font-size: 20px; }
   .elections-content-div a {
     text-decoration: underline; }

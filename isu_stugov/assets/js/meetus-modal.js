@@ -81,6 +81,38 @@ $(document).ready(function() {
     });
   });
 
+  $('#ztbarnes').click(function() {
+    $('.modal-member-name').html('Zaak Barnes');
+    $('.modal-img').css({
+      "background": "url('../assets/img/members/Barnes_Zaackary_DirectorofGovernmentRelations.png')",
+      "background-size": "cover"
+    });
+  });
+
+  $('#abbehnke').click(function() {
+    $('.modal-member-name').html('Tony Behnke');
+    $('.modal-img').css({
+      "background": "url('../assets/img/members/Behnke_Tony_CodirectorStudentAffairs.png')",
+      "background-size": "cover"
+    });
+  });
+
+  $('#bergfeld').click(function() {
+    $('.modal-member-name').html('Nick Bergfeld');
+    $('.modal-img').css({
+      "background": "url('../assets/img/members/Bergfeld_Nick_EngineerSenator.png')",
+      "background-size": "cover"
+    });
+  });
+
+  $('#dpb').click(function() {
+    $('.modal-member-name').html('Dan Breitbarth');
+    $('.modal-img').css({
+      "background": "url('../assets/img/members/Breitbarth_Daniel_Pres0.jpg')",
+      "background-size": "cover"
+    });
+  });
+
 
   // Open Modal
   $('.faces-div').click(function() {

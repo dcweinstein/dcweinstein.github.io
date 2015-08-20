@@ -6,15 +6,13 @@
 
 .more-options-menu
   float: left
-  height: 100%
+  margin-top: 20px
   width: 15%
 
 .more-options-content-container
-  float: left
+  float: right
   width: 80%
-  height: 90%
-  margin-top: 80px
-  overflow: scroll
+  margin-top: 20px
 
 .more-options-content
   padding: 15px 0 0 0
@@ -45,6 +43,7 @@
   width: 70%
   height: 50px
   position: relative
+  margin-top: 15px
   top: 50%
   // right: 15px
   margin-left: 15px
@@ -63,7 +62,6 @@
   display: flex
   flex-direction: row
   flex-wrap: wrap
-  padding-bottom: 80px
   margin-top: 15px
 
 .more-options-link
@@ -88,3 +86,60 @@
   &:active
     box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12)
     top: +3px
+
+.small-options-menu
+  display: none
+  float: none
+  width: 320px
+  position: relative
+  margin: 0 auto 0 auto
+  margin-top: 0
+.go-to-about-opt-small
+  margin-top: 10px
+  height: 50px
+  width: 120px
+  text-align: center
+  margin-left: 15px
+  float: left
+  border-style: solid
+  border-width: 1px
+  font-size: 13px
+  border-color: $cardinal-color
+  background-color: $cardinal-color
+  padding: 0px 10px 0 10px
+  cursor: pointer
+  h3
+    margin-top: 15px
+    color: $gold-color
+.go-to-request-opt-small
+  margin-top: 10px
+  width: 120px
+  height: 50px
+  text-align: center
+  float: left
+  margin-left: 15px
+  border-style: solid
+  border-width: 1px
+  font-size: 13px
+  border-color: $cardinal-color
+  background-color: $cardinal-color
+  padding: 0px 10px 0 10px
+  cursor: pointer
+  h3
+    margin-top: 15px
+    color: $gold-color
+
+@media screen and (max-width: 1140px)
+  .more-options-menu
+    display: none
+  .small-options-menu
+    display: block
+  .more-options-content-container
+    float: none
+    width: 680px
+    position: relative
+    margin: 10px auto 0 auto
+
+@media screen and (max-width: 700px)
+  .more-options-content-container
+    width: 340px

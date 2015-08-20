@@ -2,20 +2,20 @@
   width: 100%
   height: 100%
   background-color: $gold-color
+  position: relative
+
 
 .about-menu
   float: left
-  height: 100%
+  margin-top: 20px
   width: 15%
 
 .about-content-container
   float: left
   width: 80%
-  height: 90%
   background-color: white
-  margin-top: 80px
+  margin-top: 20px
   box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12)
-  overflow: scroll
 
 .about-content
   padding: 15px 0 0 0
@@ -45,6 +45,7 @@
 .go-to-more-options-abt
   width: 70%
   height: 50px
+  margin-top: 10px
   position: relative
   top: 50%
   // right: 15px
@@ -75,3 +76,77 @@
 
   p
     margin-bottom: 10px
+
+
+.small-about-menu
+  display: none
+  float: none
+  width: 320px
+  position: relative
+  margin: 0 auto 0 auto
+  margin-top: 0
+.go-to-request-abt-small
+  margin-top: 10px
+  height: 50px
+  width: 120px
+  text-align: center
+  margin-left: 15px
+  float: left
+  border-style: solid
+  border-width: 1px
+  font-size: 13px
+  border-color: $cardinal-color
+  background-color: $cardinal-color
+  padding: 0px 10px 0 10px
+  cursor: pointer
+  h3
+    margin-top: 15px
+    color: $gold-color
+.go-to-more-options-abt-small
+  margin-top: 10px
+  width: 120px
+  height: 50px
+  text-align: center
+  float: left
+  margin-left: 15px
+  border-style: solid
+  border-width: 1px
+  font-size: 13px
+  border-color: $cardinal-color
+  background-color: $cardinal-color
+  padding: 0px 10px 0 10px
+  cursor: pointer
+  h3
+    margin-top: 15px
+    color: $gold-color
+
+.shows-on-full
+  display: none
+@media screen and (max-width: 1140px)
+  .about-menu
+    display: none
+  .small-about-menu
+    display: block
+  .about-content-container
+    float: none
+    position: relative
+    margin: 10px auto 0 auto
+  .about-left
+    float: left
+    position: relative
+  .about-right
+    float: right
+    position: relative
+
+@media screen and (max-width: 1100px)
+  .about-left
+    float: none
+    width: 95%
+  .about-right
+    float: none
+    width: 95%
+    margin-bottom: 10px
+  .about-content-container
+    padding-bottom: 10px
+  .shows-on-full
+    display: block

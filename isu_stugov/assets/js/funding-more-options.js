@@ -1,4 +1,8 @@
 $(document).ready(function() {
+  var active = 0;
+
+  fixAboutHeight();
+
   function goToRequestDown () {
     $('.funding-request-main').css({
       "top": "0",
@@ -12,6 +16,8 @@ $(document).ready(function() {
       $('.funding-about-main').css({
         "display": "none"
       });
+      active = 1;
+      fixRequestHeight();
     });
   }
 
@@ -32,6 +38,8 @@ $(document).ready(function() {
       $('.funding-request-main').css({
         "display": "none"
       });
+      active = 2;
+      fixOptionsHeight();
     });
   }
 
@@ -48,6 +56,8 @@ $(document).ready(function() {
       $('.funding-options-main').css({
         "display": "none"
       });
+      active = 1;
+      fixRequestHeight();
     });
   }
 
@@ -64,6 +74,8 @@ $(document).ready(function() {
       $('.funding-request-main').css({
         "display": "none"
       });
+      active = 0;
+      fixAboutHeight();
     });
   }
 
@@ -87,6 +99,67 @@ $(document).ready(function() {
   $('.go-to-request-opt').click(function() {
     goToRequestUp();
   });
+  $('.go-to-request-abt-small').click(function() {
+    goToRequestDown();
+  });
+  $('.go-to-more-options-abt-small').click(function() {
+    goToRequestDown();
+    goToOptions();
+  });
+  $('.go-to-about-req-small').click(function() {
+    goToAbout();
+  });
+  $('.go-to-more-options-req-small').click(function() {
+    goToOptions();
+  });
+  $('.go-to-about-opt-small').click(function() {
+    goToRequestUp();
+    goToAbout();
+  });
+  $('.go-to-request-opt-small').click(function() {
+    goToRequestUp();
+  });
 
-
+  $(window).resize(function() {
+    switch (active) {
+      case 0:
+        fixAboutHeight();
+        break;
+      case 1:
+        fixRequestHeight();
+        break;
+      case 2:
+        fixOptionsHeight();
+        break;
+      default:
+        fixAboutHeight();
+    }
+  });
 });
+
+function fixAboutHeight() {
+  var neededAboutHeight = $('.about-content-container').height();
+  neededAboutHeight += 80;
+
+  $('.funding-about-main').css({
+    "height": neededAboutHeight
+  });
+}
+
+function fixRequestHeight() {
+  var neededRequestHeight = $('.request-content-container').height();
+  neededRequestHeight += 85;
+
+  $('.funding-request-main').css({
+    "height": neededRequestHeight
+  });
+}
+
+function fixOptionsHeight() {
+  var neededOptionsHeight = $('.more-options-links').height();
+  neededOptionsHeight += 190;
+
+  $('.funding-options-main').css({
+    "height": neededOptionsHeight
+  });
+}

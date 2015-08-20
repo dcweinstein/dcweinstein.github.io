@@ -1,6 +1,3 @@
-$(document).ready(adjustPageTitle);
-$(window).resize(adjustPageTitle);
-
 function adjustPageTitle() {
   var windowWidth = $(window).width();
   var splashHeight = $('.meet-splash').height();
@@ -14,3 +11,6 @@ function adjustPageTitle() {
   splashHeight += 'px';
   $('.meetus-page-title').css({'top': splashHeight});
 }
+
+$(document).ready(adjustPageTitle);
+$(window).resize(adjustPageTitle);

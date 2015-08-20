@@ -29,7 +29,8 @@ $(document).ready(function() {
       height: "0px"
     }, 650, function() {
       $('.election-commission').css({
-        "display": "none"
+        "display": "none",
+        "height": commissionHeight
       });
     });
     currentPleat = 0;
@@ -67,17 +68,17 @@ $(document).ready(function() {
     currentPleat = 1;
   }
 
-  $('.about-elections-selector').click(function() {
+  $('.ae-selector').click(function() {
     if(currentPleat === 1) {
       toAbout();
     }
     else if(currentPleat === 2) {
       upToCommission();
-      toAbout();
+      setTimeout(toAbout, 300);
     }
   });
 
-  $('.election-commission-selector').click(function() {
+  $('.ec-selector').click(function() {
     if(currentPleat === 0) {
       downToCommission();
     }
@@ -86,10 +87,10 @@ $(document).ready(function() {
     }
   });
 
-  $('.how-to-run-selector').click(function() {
+  $('.htr-selector').click(function() {
     if(currentPleat === 0) {
       downToCommission();
-      toHowTo();
+      setTimeout(toHowTo, 300);
     }
     else if(currentPleat === 1) {
       toHowTo();

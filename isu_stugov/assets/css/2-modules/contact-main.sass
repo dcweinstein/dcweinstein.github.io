@@ -1,0 +1,172 @@
+.contact-main
+  width: 100%
+  background: $gold-color
+
+.contact-container
+  width: 600px
+  position: relative
+  margin: 0px auto 20px auto
+
+.representative-select
+  // padding-top: 20px
+  width: 100%
+  text-align: center
+
+#major
+  float: left
+  img
+    height: 15px
+    position: absolute
+    top: 40px
+    left: 200px
+
+#living
+  float: right
+  img
+    height: 15px
+    position: absolute
+    top: 40px
+    right: 10px
+
+.rep-button
+  color: $gold-color
+  width: 200px
+  height: 50px
+  background-color: $cardinal-color
+  line-height: 50px
+  padding-right: 30px
+  cursor: pointer
+
+.rep-majors
+  display: none
+  height: 200px
+  width: 100%
+  background-color: $cardinal-color
+  color: $gold-color
+  overflow: scroll
+
+.rep-living
+  display: none
+  height: 200px
+  width: 100%
+  background-color: $cardinal-color
+  color: $gold-color
+  overflow: scroll
+
+.faces-header
+  // margin-top: 30px
+  margin-left: 40px
+
+#contact-faces
+  margin: 0px auto 0 auto
+  width: 1000px
+  padding-bottom: 0
+
+@media screen and (max-width: 1000px)
+  #contact-faces
+    width: 750px
+
+@media screen and (max-width: 750px)
+  #contact-faces
+    width: 500px
+
+
+@media screen and (max-width: 500px)
+  #contact-faces
+    width: 250px
+
+.contact-faces-section
+  display: none
+
+.form-section
+  padding-top: 20px
+  padding-bottom: 20px
+  width: 800px
+  margin: 0 auto 0 auto
+input
+  display: block
+  font-size:15px
+  padding:4px 2px
+  border:solid 1px #aacfe4
+  width:70px
+  margin:2px 0 20px 10px
+
+.form-name
+  width: 200px
+
+.form-subject
+  width: 200px
+
+.form-body
+  margin-left: 10px
+  margin-bottom: 10px
+  width: 600px
+  height: 300px
+
+.send-input
+  margin-bottom: 5px
+  height: 35px
+  width: 100px
+  background-color: $cardinal-color
+  color: $gold-color
+  text-align: center
+  cursor: pointer
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12)
+  &:hover
+    position: relative
+    top: -3px
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19)
+  &:active
+    box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12)
+    top: +3px
+@media screen and (max-width: 650px)
+  .form-body
+    width: 400px
+
+@media screen and (max-width: 450px)
+  .form-body
+    width: 300px
+
+@media screen and (max-width: 625px)
+  .rep-button
+    position: relative
+    margin: 10px auto 10px auto
+
+  #living
+    float: none
+
+  #major
+    float: none
+
+  .major-img
+    // margin-top: -20px
+
+  .living-img
+    // margin-top: -20px
+
+  .rep-major
+    position: relative
+
+.sending
+  display: none
+  position: absolute
+  width: 200px
+  height: 100px
+  background-color: white
+  text: black
+  left: calc(50% - 100px)
+  top: calc(50% - 50px)
+  text-align: center
+  line-height: 100px
+
+.thank-you
+  display: none
+  position: absolute
+  width: 250px
+  height: 100px
+  background-color: white
+  text: black
+  left: calc(50% - 125px)
+  top: calc(50% - 50px)
+  text-align: center
+  line-height: 100px

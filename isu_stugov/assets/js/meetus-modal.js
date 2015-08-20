@@ -8,26 +8,6 @@ $(document).ready(function() {
   var width;
   var height;
 
-  // Set modal content
-  // $('#initOne').click(function() {
-  //   $('.project').html('Bike Share Program');
-  //   $('.project-manager').html('Nick Terhall');
-  //   $('.goal').html('Install card scanners and bikes on campus so that students can checkout bikes from campus and return at any other campus bike rack');
-  //   $('.more-info-selector').attr('href', "Bike-Share-Document.pdf");
-  // });
-
-
-  // p.info Major: Computer Engineering
- //-       p.info Hometown: Cedar Rapids, Iowa
- //-       p.info Years in Student Government: 2
- //-       strong
- //-         .header.more Biography
- //-       p Michael Snook is a sophomore in Computer Engineering with an expected graduation in 2017. He is from Cedar Rapids, Iowa and was the Treasurer of Freshmen Council during his freshman year at Iowa State. He also served as a Freshman Honors Program Leader his sophomore year. He currently serves as the Vice President of the Memorial Union Board of Directors and as the Chair of the Memorial Union Student Advisory Committee. Within Student Government, Michael represents the Engineering Constituency and serves as the Vice Speaker of the Senate. Michael has served on both the Finance and Rules Committees. His sophomore year, he wrote a bill in collaboration with the Finance Director that allowed Student Government to allocate an additional $166,000 to student organizations. He is very willing to meet with students to answer questions or collaborate on projects.
- //-       strong
- //-         .header Goals
- //-       p 1. Improve collaboration between the students and Student Government.
- //-       p 2. Ensure the efficient operations of the Student Government Senate.
- //-       p 3. Improve the Student Experience.
 
   // Set modal content
   $('#snook').click(function() {
@@ -42,7 +22,7 @@ $(document).ready(function() {
     $('.goalTwo').html('2. Ensure the efficient operations of the Student Government Senate.');
     $('.goalThree').html('3. Improve the Student Experience.');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Snook_Michael_ViceSpeaker.jpg')",
+      "background": "url('/assets/img/members/Snook_Michael_ViceSpeaker.jpg')",
       "background-size": "cover"
     });
   });
@@ -59,7 +39,7 @@ $(document).ready(function() {
     $('.goalTwo').html('2. Work closely with IRHA to form an open community with new students with outreach throughout the school year');
     $('.goalThree').html('3. Keep constant outreach throughout the school year and an open inbox so that students can voice concerns and excitement about their experience and any ideas that they have');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Gavin_Daniel.png')",
+      "background": "url('/assets/img/members/Gavin_Daniel.png')",
       "background-size": "cover"
     });
   });
@@ -76,7 +56,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/missing.jpg')",
+      "background": "url('/assets/img/members/missing.jpg')",
       "background-size": "cover"
     });
   });
@@ -93,7 +73,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/missing.jpg')",
+      "background": "url('/assets/img/members/missing.jpg')",
       "background-size": "cover"
     });
   });
@@ -110,7 +90,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Barnes_Zaackary_DirectorofGovernmentRelations.png')",
+      "background": "url('/assets/img/members/Barnes_Zaackary_DirectorofGovernmentRelations.png')",
       "background-size": "cover"
     });
   });
@@ -127,7 +107,7 @@ $(document).ready(function() {
     $('.goalTwo').html('2. Create new infastructure supporting Biking and Walkers along Bissel Dr.');
     $('.goalThree').html('<p>3. Improving recycling on campus</p><p>4. Creating a more educational biking website.</p>');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Behnke_Tony_CodirectorStudentAffairs.png')",
+      "background": "url('/assets/img/members/Behnke_Tony_CodirectorStudentAffairs.png')",
       "background-size": "cover"
     });
   });
@@ -144,7 +124,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Bergfeld_Nick_EngineerSenator.png')",
+      "background": "url('/assets/img/members/Bergfeld_Nick_EngineerSenator.png')",
       "background-size": "cover"
     });
   });
@@ -161,7 +141,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/missing.jpg')",
+      "background": "url('/assets/img/members/missing.jpg')",
       "background-size": "cover"
     });
   });
@@ -178,7 +158,7 @@ $(document).ready(function() {
     $('.goalTwo').html('2. Serve as a good steward of the students needs and requests at state and national functions.');
     $('.goalThree').html('3. Collaborate with university employees and administration to continue the positive progression of the university and it’s students. ');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Breitbarth_Daniel_Pres0.jpg')",
+      "background": "url('/assets/img/members/Breitbarth_Daniel_Pres0.jpg')",
       "background-size": "cover"
     });
   });
@@ -195,7 +175,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Button_Cole.png')",
+      "background": "url('/assets/img/members/Button_Cole.png')",
       "background-size": "cover"
     });
   });
@@ -212,7 +192,7 @@ $(document).ready(function() {
     $('.goalTwo').html('2. She also plans to keep Iowa State beautiful by promoting recycling and lowering the amount of litter around campus.');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Chitty_Danielle.png')",
+      "background": "url('/assets/img/members/Chitty_Danielle.png')",
       "background-size": "cover"
     });
   });
@@ -229,7 +209,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Clark_Jeremy.png')",
+      "background": "url('/assets/img/members/Clark_Jeremy.png')",
       "background-size": "cover"
     });
   });
@@ -246,7 +226,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Cortez_Sarah.png')",
+      "background": "url('/assets/img/members/Cortez_Sarah.png')",
       "background-size": "cover"
     });
   });
@@ -263,7 +243,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Crawford_Ben_SpeakerofSenate.jpg')",
+      "background": "url('/assets/img/members/Crawford_Ben_SpeakerofSenate.jpg')",
       "background-size": "cover"
     });
   });
@@ -280,7 +260,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/missing.jpg')",
+      "background": "url('/assets/img/members/missing.jpg')",
       "background-size": "cover"
     });
   });
@@ -297,7 +277,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Deer_Hassan.png')",
+      "background": "url('/assets/img/members/Deer_Hassan.png')",
       "background-size": "cover"
     });
   });
@@ -314,7 +294,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/missing.jpg')",
+      "background": "url('/assets/img/members/missing.jpg')",
       "background-size": "cover"
     });
   });
@@ -331,7 +311,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/missing.jpg')",
+      "background": "url('/assets/img/members/missing.jpg')",
       "background-size": "cover"
     });
   });
@@ -348,7 +328,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Dunn_Robert.png')",
+      "background": "url('/assets/img/members/Dunn_Robert.png')",
       "background-size": "cover"
     });
   });
@@ -365,7 +345,7 @@ $(document).ready(function() {
     $('.goalTwo').html('2. Work on projects to improve student life at Iowa State');
     $('.goalThree').html('3. Make every students adventure at Iowa State more enjoyable');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Faunce_Charles.png')",
+      "background": "url('/assets/img/members/Faunce_Charles.png')",
       "background-size": "cover"
     });
   });
@@ -382,7 +362,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/missing.jpg')",
+      "background": "url('/assets/img/members/missing.jpg')",
       "background-size": "cover"
     });
   });
@@ -399,7 +379,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Gaura_Brittany.png')",
+      "background": "url('/assets/img/members/Gaura_Brittany.png')",
       "background-size": "cover"
     });
   });
@@ -416,7 +396,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/missing.jpg')",
+      "background": "url('/assets/img/members/missing.jpg')",
       "background-size": "cover"
     });
   });
@@ -433,7 +413,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Goldberg_Adam.png')",
+      "background": "url('/assets/img/members/Goldberg_Adam.png')",
       "background-size": "cover"
     });
   });
@@ -450,7 +430,7 @@ $(document).ready(function() {
     $('.goalTwo').html('2. Improve Residence Hall Experiene');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Gray_Paxton.png')",
+      "background": "url('/assets/img/members/Gray_Paxton.png')",
       "background-size": "cover"
     });
   });
@@ -467,7 +447,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/missing.jpg')",
+      "background": "url('/assets/img/members/missing.jpg')",
       "background-size": "cover"
     });
   });
@@ -484,7 +464,7 @@ $(document).ready(function() {
     $('.goalTwo').html('2. Provide all necessary assistance to the President and Vice President to ensure they have what they need to effectively do their jobs.');
     $('.goalThree').html('3. Effectively create a strong team dynamic within the Cabinet by resolving individual issue, motivating team members, and by providing assistance to those who are in need.');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/missing.jpg')",
+      "background": "url('/assets/img/members/missing.jpg')",
       "background-size": "cover"
     });
   });
@@ -501,7 +481,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/missing.jpg')",
+      "background": "url('/assets/img/members/missing.jpg')",
       "background-size": "cover"
     });
   });
@@ -518,7 +498,7 @@ $(document).ready(function() {
     $('.goalTwo').html('2. Address critical issues facing Iowa State students, specifically our massive student debt problem and rising tuition, sexual assault, and unsustainable environmental practices.');
     $('.goalThree').html('3. Be a supportive ally to marginalized and oppressed students, especially queer identifying students, students of color, international students, women, disabled students, veterans, non-traditional students, and any other student who feels that their needs are not being met or feel unsafe at our university.');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Kersch_Jane.png')",
+      "background": "url('/assets/img/members/Kersch_Jane.png')",
       "background-size": "cover"
     });
   });
@@ -535,7 +515,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/missing.jpg')",
+      "background": "url('/assets/img/members/missing.jpg')",
       "background-size": "cover"
     });
   });
@@ -552,7 +532,7 @@ $(document).ready(function() {
     $('.goalTwo').html('2. See physical change on campus');
     $('.goalThree').html('3. Serve the students');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Lackore_Joshua.png')",
+      "background": "url('/assets/img/members/Lackore_Joshua.png')",
       "background-size": "cover"
     });
   });
@@ -569,7 +549,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Lang_Abbie.png')",
+      "background": "url('/assets/img/members/Lang_Abbie.png')",
       "background-size": "cover"
     });
   });
@@ -586,7 +566,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Leidahl_Kathryn.png')",
+      "background": "url('/assets/img/members/Leidahl_Kathryn.png')",
       "background-size": "cover"
     });
   });
@@ -603,7 +583,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Lovatt_Bryony.png')",
+      "background": "url('/assets/img/members/Lovatt_Bryony.png')",
       "background-size": "cover"
     });
   });
@@ -620,7 +600,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Marlenee_Ian.png')",
+      "background": "url('/assets/img/members/Marlenee_Ian.png')",
       "background-size": "cover"
     });
   });
@@ -637,7 +617,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/missing.jpg')",
+      "background": "url('/assets/img/members/missing.jpg')",
       "background-size": "cover"
     });
   });
@@ -654,7 +634,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Melookaran_George.png')",
+      "background": "url('/assets/img/members/Melookaran_George.png')",
       "background-size": "cover"
     });
   });
@@ -671,7 +651,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Moore_David.png')",
+      "background": "url('/assets/img/members/Moore_David.png')",
       "background-size": "cover"
     });
   });
@@ -688,7 +668,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Murguia_Jazmin.png')",
+      "background": "url('/assets/img/members/Murguia_Jazmin.png')",
       "background-size": "cover"
     });
   });
@@ -705,7 +685,7 @@ $(document).ready(function() {
     $('.goalTwo').html('2. Reach out to as many business students as possible on issues/concerns as well as  legislation in the Student Government Senate by having face-to-face communication with constituents and being easily accessible');
     $('.goalThree').html('<p>3. Work with the Public Relations Committee to increase visibility/awareness, student engagement, and transparency</p><p>4. Work with the Public Relations Committee and Election Commission to increase voter turnout in Student Government elections</p><p>5. Continue efforts to implement a safe, reliable rideshare program in Ames</p><p>6. Work collectively with the student body and Student Government to create a campus-wide celebration that is student-driven and focused on Iowa State’s traditions</p><p>7. Work with the Director of Philanthropic Events to create a campus-wide philanthropy event</p>');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Myers_Peter.png')",
+      "background": "url('/assets/img/members/Myers_Peter.png')",
       "background-size": "cover"
     });
   });
@@ -722,7 +702,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Neid_Parker.png')",
+      "background": "url('/assets/img/members/Neid_Parker.png')",
       "background-size": "cover"
     });
   });
@@ -739,7 +719,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Nguyen_Andrew.png')",
+      "background": "url('/assets/img/members/Nguyen_Andrew.png')",
       "background-size": "cover"
     });
   });
@@ -756,7 +736,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Nygard_Danielle.png')",
+      "background": "url('/assets/img/members/Nygard_Danielle.png')",
       "background-size": "cover"
     });
   });
@@ -773,7 +753,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/missing.jpg')",
+      "background": "url('/assets/img/members/missing.jpg')",
       "background-size": "cover"
     });
   });
@@ -790,7 +770,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/missing.jpg')",
+      "background": "url('/assets/img/members/missing.jpg')",
       "background-size": "cover"
     });
   });
@@ -807,7 +787,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Pillai_Maneesh.png')",
+      "background": "url('/assets/img/members/Pillai_Maneesh.png')",
       "background-size": "cover"
     });
   });
@@ -824,7 +804,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Reece_Zackary.png')",
+      "background": "url('/assets/img/members/Reece_Zackary.png')",
       "background-size": "cover"
     });
   });
@@ -841,7 +821,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Schulte_Sam.png')",
+      "background": "url('/assets/img/members/Schulte_Sam.png')",
       "background-size": "cover"
     });
   });
@@ -858,7 +838,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/missing.jpg')",
+      "background": "url('/assets/img/members/missing.jpg')",
       "background-size": "cover"
     });
   });
@@ -875,7 +855,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/missing.jpg')",
+      "background": "url('/assets/img/members/missing.jpg')",
       "background-size": "cover"
     });
   });
@@ -892,7 +872,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Starn_Ryan.png')",
+      "background": "url('/assets/img/members/Starn_Ryan.png')",
       "background-size": "cover"
     });
   });
@@ -909,7 +889,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Staudt_Cole.png')",
+      "background": "url('/assets/img/members/Staudt_Cole.png')",
       "background-size": "cover"
     });
   });
@@ -926,7 +906,7 @@ $(document).ready(function() {
     $('.goalTwo').html('2. Connect with the students on a more personal level, especially by showing off the Students First initiative at DIS.');
     $('.goalThree').html('3. Be more present on social media — I would love for students to get excited about our posts!');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Sundermann_Mickey.png')",
+      "background": "url('/assets/img/members/Sundermann_Mickey.png')",
       "background-size": "cover"
     });
   });
@@ -943,7 +923,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Swanson_Adelai.png')",
+      "background": "url('/assets/img/members/Swanson_Adelai.png')",
       "background-size": "cover"
     });
   });
@@ -960,7 +940,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Sweere_Megan_VP.jpg')",
+      "background": "url('/assets/img/members/Sweere_Megan_VP.jpg')",
       "background-size": "cover"
     });
   });
@@ -977,7 +957,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Teubert_Matthew.png')",
+      "background": "url('/assets/img/members/Teubert_Matthew.png')",
       "background-size": "cover"
     });
   });
@@ -994,7 +974,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/missing.jpg')",
+      "background": "url('/assets/img/members/missing.jpg')",
       "background-size": "cover"
     });
   });
@@ -1011,7 +991,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Tillo_Conner.png')",
+      "background": "url('/assets/img/members/Tillo_Conner.png')",
       "background-size": "cover"
     });
   });
@@ -1028,7 +1008,7 @@ $(document).ready(function() {
     $('.goalTwo').html('2. Work with the Senate efficiently to pass bills and resolutions that are really important to students');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Tosoni_Emily.png')",
+      "background": "url('/assets/img/members/Tosoni_Emily.png')",
       "background-size": "cover"
     });
   });
@@ -1045,7 +1025,7 @@ $(document).ready(function() {
     $('.goalTwo').html('2. Continue to work closely with administration to address current issues facing Iowa State students.');
     $('.goalThree').html('3. Continue to work with student organizations to give them the resources and support they need to function.');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Valentino_Steven.png')",
+      "background": "url('/assets/img/members/Valentino_Steven.png')",
       "background-size": "cover"
     });
   });
@@ -1062,7 +1042,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/missing.jpg')",
+      "background": "url('/assets/img/members/missing.jpg')",
       "background-size": "cover"
     });
   });
@@ -1079,7 +1059,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Weinstein_David.png')",
+      "background": "url('/assets/img/members/Weinstein_David.png')",
       "background-size": "cover"
     });
   });
@@ -1096,7 +1076,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/West_Cody.png')",
+      "background": "url('/assets/img/members/West_Cody.png')",
       "background-size": "cover"
     });
   });
@@ -1113,7 +1093,7 @@ $(document).ready(function() {
     $('.goalTwo').html('');
     $('.goalThree').html('');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Weston_George.png')",
+      "background": "url('/assets/img/members/Weston_George.png')",
       "background-size": "cover"
     });
   });
@@ -1130,7 +1110,7 @@ $(document).ready(function() {
     $('.goalTwo').html('2. Accurately represent and convey the thoughts and feeling of IRHA to Student Government.');
     $('.goalThree').html('3. Make it so more people will say:  "I didn\'t choose the StuG Lyfe.  The StuG Lyfe chose me.');
     $('.modal-img').css({
-      "background": "url('../assets/img/members/Zirkelbach_Jacob.png')",
+      "background": "url('/assets/img/members/Zirkelbach_Jacob.png')",
       "background-size": "cover"
     });
   });

@@ -1,0 +1,73 @@
+body {
+    font-family: "courier";
+    width: 850px;
+    margin: auto;
+}
+
+hr {
+    height: 3px;
+    background-color: #7e7e7e;
+    color: #7e7e7e;
+    border-width: 0;
+}
+
+#header {
+    width: 100%;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 300px;
+}
+
+#top-hr {
+    margin-top: 5em;
+}
+
+.header-sec {
+    text-align: center;
+    width: 850px;
+    display: inline-block;
+}
+
+#contact-header {
+    display: none;
+    position: relative;
+    top: -150px;
+}
+
+#contact-header h2,h3 {
+    margin: 0;
+    padding: 0;
+}
+
+#name-header h1 {
+    font-size: 500%;
+    text-align: center;
+}
+
+#contact-header h2 {
+    padding-top: 10px;
+}
+
+#bottom-hr {
+    margin-top: 0;
+    position: relative;
+    bottom: 20px;
+}
+
+#page-content {
+    position: relative;
+}
+
+.page {
+    position: absolute;
+    top: 0;
+}
+
+.inactive {
+    display: none;
+}
+
+.active {
+    display: block;
+}

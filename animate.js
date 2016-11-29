@@ -1,5 +1,7 @@
-var curPageSelector = "#intro";
+var curPageSelector = "#intro-text";
 var prevPageSelector = "";
+var curActive = "#intro";
+var prevActive = "";
 
 $('#header-content').hover(function() {
     $('#bottom-hr').css('bottom', '0');
@@ -18,27 +20,38 @@ $('.ui.dropdown').dropdown({
         switch(value) {
             case "intro":
                 prevPageSelector = curPageSelector;
-                curPageSelector = "#intro";
+                curPageSelector = "#intro-text";
+                prevActive = curActive;
+                curActive = "#intro";
                 break;
             case "reflection":
                 prevPageSelector = curPageSelector;
-                curPageSelector = "#reflection";
+                curPageSelector = "#reflection-content";
+                prevActive = curActive;
+                curActive = "#reflection";
                 break;
             case "experience":
                 prevPageSelector = curPageSelector;
-                curPageSelector = "#experience";
+                curPageSelector = "#experience-content";
+                prevActive = curActive;
+                curActive = "#experience";
                 break;
             case "projects":
                 prevPageSelector = curPageSelector;
-                curPageSelector = "#projects";
+                curPageSelector = "#projects-content";
+                prevActive = curActive;
+                curActive = "#projects";
                 break;
             case "resume":
-                prevPageSelector = curPageSelector;
-                curPageSelector = "#resume";
+                var win = window.open('/resume.pdf', '_blank');
+                win.focus();
+                window.location.reload(false);
                 break;
         }
-        $(curPageSelector).addClass('active');
+        $(prevActive).find('.footer').css('display', 'none');
+        $(curActive).addClass('active');
         $(prevPageSelector).addClass('bounceOutLeft');
         $(curPageSelector).removeClass('bounceOutLeft');
+        $(curActive).find('.footer').css('display', 'block');
     }
 });

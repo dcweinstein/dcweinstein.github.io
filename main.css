@@ -71,3 +71,10 @@ hr {
 .active {
     display: block;
 }
+
+.footer {
+    position: relative;
+    text-align: center;
+    width: 850px;
+    display: inline-block;
+}
